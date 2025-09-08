@@ -1,0 +1,74 @@
+.app-container {
+          background-color: #fff;
+          min-height: 100vh;
+          font-family: sans-serif;
+        }
+
+        .header-wrapper {
+          display: flex;
+          justify-content: center;
+          padding: 1rem;
+        }
+
+        .header-container {
+          background-color: #fff7ed; /* Color crema claro */
+          width: 100%;
+          border-radius: 0.375rem; /* rounded-md */
+          padding: 1rem;
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: #4a5568; /* text-gray-800 */
+        }
+
+        .logo-container {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem; /* space-x-2 */
+        }
+
+        .logo-text {
+          font-size: 1.25rem; /* text-xl */
+          font-weight: 700; /* font-bold */
+        }
+
+        .nav-menu {
+          display: flex;
+          gap: 1.5rem; /* space-x-6 */
+        }
+
+        .nav-link {
+          font-weight: 600; /* font-semibold */
+          transition-property: color;
+          transition-duration: 200ms;
+        }
+
+        .nav-link:hover {
+          color: #b45309; /* hover:text-amber-700 */
+        }
+
+        .nav-link.active {
+          color: #b45309;
+        }
+
+        .menu-button {
+          display: block;
+        }
+
+        .menu-button svg {
+          height: 1.5rem; /* h-6 */
+          width: 1.5rem; /* w-6 */
+          stroke: currentColor;
+        }
+
+        /* Ocultar el menú de navegación en pantallas pequeñas y el botón en pantallas medianas y grandes */
+        @media (min-width: 768px) {
+          .nav-menu {
+            display: flex;
+          }
+          .menu-button {
+            display: none;
+          }
+        }
+      
