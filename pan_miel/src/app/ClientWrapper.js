@@ -19,7 +19,7 @@ export default function ClientWrapper ({ children }) {
 //     });
 // }, []);
 
-    return (
+    return (    
         <div className={jost.className}>
 {/*             <Header /> */}
             {children}
