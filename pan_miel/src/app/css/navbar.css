@@ -1,5 +1,5 @@
         .header-container {
-          background-color: #f1e39e; /* Color crema claro */
+          background-color: #fffffd; /* Color crema claro */
           /*width: 100%; */
           border-radius: 0.375rem; /* rounded-md */
           padding: 1rem;
@@ -37,11 +37,11 @@
         }
 
         .nav-link:hover {
-          color: #b45309; /* hover:text-amber-700 */
+          color: #8e4be0; /* hover:text-amber-700 */
         }
 
         .nav-link.active {
-          color: #b45309;
+          color: #8e4be0;
         }
 
         .menu-button {
