@@ -8,14 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroui/react": "^2.8.3",
+    "@iconify/react": "latest",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-slot": "^1.2.3",
+    "@tailwindcss/postcss": "4.1.11",
+    "@tailwindcss/vite": "4.1.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^11.18.2",
     "lucide-react": "^0.542.0",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "source-map-js": "^1.2.1",
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {

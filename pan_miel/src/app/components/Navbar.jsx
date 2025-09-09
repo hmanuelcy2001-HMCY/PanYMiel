@@ -12,20 +12,20 @@ const Navbar = () => {
       </div>
       <nav className="nav-menu hidden md:flex">
         <a href="#home" className="nav-link active">
-          Principal
+          Esencia
         </a>
         <a href="#about" className="nav-link">
-          Tienda
+          Casa Nuestra
         </a>
         <a href="#education" className="nav-link">
-          Nosotros
+          Colmena
         </a>
         <a href="#experience" className="nav-link">
-          Pedidos
+          Haz tu pedido
         </a>
 
         <a href="#contact" className="nav-link">
-          Contacto
+          Logos
         </a>
       </nav>
       {/* Botón de menú para móviles, si lo necesitas
