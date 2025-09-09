@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/navbar.css"
+//import logo from '../images/Logo.png';
 
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
    <div className="header-container">
       <div className="logo-container">
         {/* Aquí reemplazar 'Logo' con un SVG o una imagen real */}
-        <span className="logo-text">Logo</span>
+        <span className="logo-text"><img src="/images/Logo.svg" alt="" className="logo-img" /></span>
       </div>
       <nav className="nav-menu hidden md:flex">
         <a href="#home" className="nav-link active">

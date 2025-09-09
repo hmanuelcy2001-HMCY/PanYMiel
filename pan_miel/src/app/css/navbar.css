@@ -20,6 +20,11 @@
           gap: 0.5rem; /* space-x-2 */
         }
 
+        .logo-img {
+          height: 2.5rem; /* h-10 */
+          width: 2.5rem; /* w-10 */
+        }
+
         .logo-text {
           font-size: 1.25rem; /* text-xl */
           font-weight: 700; /* font-bold */
